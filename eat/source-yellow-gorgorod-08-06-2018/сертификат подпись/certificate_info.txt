@@ -1,0 +1,23 @@
+alias
+fantasy_united_release
+
+certificate password
+sd_@#499e43H)-gG
+
+first and last name
+Fantasy United
+
+2-letter country code
+RU
+
+valid from
+31-03-2018
+
+valid to
+31-03-2063
+
+filename
+fantasy_united.keystore
+
+Keystore password
+sf*@#*839HgH-g

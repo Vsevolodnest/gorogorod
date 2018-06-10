@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1,width=device-width, height=device-height, target-densitydpi=device-dpi" />
+
+<title>Фентези Юнайтед</title>
+
+<link type="text/css" rel="stylesheet" href="css/all.css">
+<link type="text/css" rel="stylesheet" href="css/images.css">
+<link type="text/css" rel="stylesheet" href="css/st.css">
+<link rel="stylesheet" type="text/css" href="slick/slick.css">
+<link rel="stylesheet" type="text/css" href="slick/slick-theme.css">
+
+<style>
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Roboto'), local('Roboto-Regular'), url(font/roboto.woff) format('woff');
+  }
+  html{
+    font-family: 'Roboto';
+  }
+</style>
+
+<script>
+[
+  'cordova.js',
+  'js/jquery-2.1.4.min.js',
+  'slick/slick.min.js',
+  'js/base.js',
+].forEach(function(src) {
+  var script = document.createElement('script');
+  script.src = src;
+  script.async = false;
+  document.head.appendChild(script);
+});
+</script>
+
+</head>
+<body>
+
+<div class="allblock">
+
+  <div id="all_alert">
+    <div id="all_alert_text">Предупреждение</div>
+    <div id="all_alert_ok">OK</div>
+  </div>
+
+  <div class="preloader"><div></div></div>
+
+  <div id="gl_question_alert" class="gl_question_alert_style dnone">
+    <div id="alert_h1" class="alert_h1_style">Отлично!</div>
+    <div id="alert_text" class="alert_text_style">Вы правильно ответили на этот вопрос, поздравляем!</div>
+    <div id="ok_alert" class="ok_alert_style">Продолжить</div>
+  </div>
+
+  <div id="lb_page_block" class="container"></div>
+
+</div>
+
+</body>
+</html>
